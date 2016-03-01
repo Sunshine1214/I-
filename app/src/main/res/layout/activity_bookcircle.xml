@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/green3"
+        android:weightSum="1">
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:text="话题"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="128dp"
+            android:background="@drawable/selector_topic"
+            android:id="@+id/topic"
+            android:layout_weight="0.04" />
+        <Button
+            android:layout_width="54dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:text="消息"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/selector_topic"
+            android:id="@+id/message"
+            android:layout_weight="0.05" />
+    </LinearLayout>
+ <ListView
+     android:layout_width="match_parent"
+     android:layout_height="410dp"
+     android:background="#ffffff"></ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"></LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.43">
+        <Button
+            android:id="@+id/read"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:text="   阅读"
+            android:textColor="#A9A9A9"
+            android:background="#FFFFFF"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/dark_book"
+            android:gravity="top|center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentBottom="true" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:text="  书虫圈"
+            android:textColor="@color/green3"
+            android:background="#FFFFFF"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/light_bookcircle"
+            android:gravity="top|center_vertical"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/bookcircle"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/read"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:text="    发现"
+            android:layout_marginTop="5dp"
+            android:textColor="#A9A9A9"
+            android:background="#FFFFFF"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/find"
+            android:gravity="top|center_vertical"
+            android:layout_toRightOf="@+id/bookcircle"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/find" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:text="      我"
+            android:layout_marginTop="5dp"
+            android:textColor="#A9A9A9"
+            android:background="#FFFFFF"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/portrait"
+            android:gravity="top|center_vertical"
+            android:layout_toRightOf="@+id/find"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/portrait" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/green3">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:id="@+id/back"
+            android:background="@drawable/back"
+            android:layout_marginStart="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/set"
+            android:text="。。。"
+            android:textSize="1sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

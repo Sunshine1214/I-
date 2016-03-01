@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/login"
+    android:weightSum="1">
+    <LinearLayout
+        android:id="@+id/login1"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:background="@color/green2"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:id="@+id/logo" />
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你的专属移动图书馆"
+            android:textColor="@color/green3"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textSize="15sp"
+            android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="“I Read”"
+                android:textSize="15sp"
+                android:textColor="@color/green3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:text="账号" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/account"
+        android:drawableLeft="@drawable/people"
+        android:background="@drawable/corner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="学号/昵称" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/corner"
+        android:drawableLeft="@drawable/password"
+        android:paddingLeft="10dp"
+        android:drawablePadding="20dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="请输入你的密码"
+        android:password="true"/>
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/corner1"
+        android:text="登录"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/corner"
+        android:text="注册"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+
+
+</LinearLayout>
